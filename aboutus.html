@@ -1,0 +1,415 @@
+<!doctype html>
+
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<!--[if IE 10]><html class="ie10" lang="en" > <![endif]-->
+
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HEXO +</title>
+
+    <link rel="stylesheet" type="text/css" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+
+    <script>
+    $(document).foundation();
+    </script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        scrollingSpeed: 700,
+        autoScrolling: false,
+        verticalCentered: true,
+        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
+        afterRender: function(){
+
+
+          //playing the video
+          $('video').get(0).play();
+        }
+      });
+    });
+  </script>
+
+  </head>
+  <body>
+  
+  <!-- Header / Menu -->
+
+    <header class="fixed sticky hide-for-small">
+      <div class="blue_barre">
+      </div>
+        <div class="row grid_m">
+          <div class="large-12 columns grid">
+                <div class="large-3 columns left">
+                  <h1 class="logo_header"><a href="index.html">HEXO+</a></h1>
+                </div>
+
+                <div class="large-9 columns right">
+                  <nav class="header_nav">
+                    <ul class="inline-list right">
+                      <li><a href="" class="pre_order"><button>Pre-Order Now !</button></a></li>
+                      <li><a href="product.html">Products</a></li>
+                      <li><a href="#">Innovation</a></li>
+                      <li><a href="#">News</a></li>
+                      <li><a href="aboutus.html">About Us</a></li>
+                    </ul>
+                  </nav>
+                </div>
+          </div>
+        </div>
+    </header>
+<span class="test">
+    <header id="top" role="banner" class="fixed sticky show-for-small">
+      <div class="blue_barre">
+      </div>
+        <div class="block">
+            <h1 class="block-title"><a href="index.html">HEXO+</a></h1>
+            <a class="nav-btn" id="nav-open-btn" href="#nav">Navigation</a>
+        </div>
+    </header>
+
+    <!-- Header / Menu Mobile -->
+
+    <nav id="nav" role="navigation">
+        <div class="block">
+            <ul>
+                <li class="is-active">
+                    <a href="#">Pre-Order Now !</a>
+                </li><!--
+             --><li>
+                    <a href="index.html">Home</a>
+                </li><!--
+             --><li>
+                    <a href="product.html">Products</a>
+                </li><!--
+             --><li>
+                    <a href="#">Innovation</a>
+                </li><!--
+             --><li>
+                    <a href="#">News</a>
+                </li><!--
+             --><li>
+                    <a href="aboutus.html">About</a>
+                </li>
+            </ul>
+            <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
+        </div>
+    </nav>
+        </div>
+      </div>
+  </header>
+ </span>  
+
+<!-- Content -->
+
+    <div id="fullpage">
+  
+  <!-- Our Team -->
+
+      <div class="section" id="section_a0">
+        <div class="overlay">
+          <h2 class="ourteam">Our Team</h2>
+          <span>Scroll Down<br /><a href=""><i class="fa fa-chevron-down fa-2x"></i></a></span>
+        </div>
+      </div>
+
+      <!-- Description Our Team -->
+
+      <div class="section" id="section_a2">
+        <div class="layout">
+          <img src="images/team.png" alt="team" title="Our Team"/>
+      </div>
+
+        <div class="param">
+          <div class="param_img">
+            <img src="images/gear.png" alt="gear" title="resume"/>
+          </div>
+          <div class="param_desc">
+            <p>Our team came together organically, thanks to our complementary skills and a converging vision to solve problems. </p>
+            <p>We all have over 15 years of experience in our respective domains, and the breadth of our combined expertises is something we still marvel at to this day: from aeronautics software development to action-sports movie-making to drone building to startup management, here is the dedicated crew that brings you HEXO+.</p>
+          </div>
+      </div>
+      </div>
+
+      <!-- Description dev design -->
+
+      <div class="section" id="section_a3">
+        <div class="dev_des">
+          <div class="dev">
+            <div class="dev_img">
+              <img src="images/dev.png" alt="development" title="Development Team"/>
+            </div>
+              <h3>Development Team</h3>
+              <p>Christophe Baillon - CTO</p>
+              <p>William Thielicke - Drone Developer and Racer</p>
+              <p>Laurent Mangue - Critical Onboard Software</p>
+          </div>
+          <div class="des">
+            <div class="des_img">
+              <img src="images/des.png" alt="design" title="Design Team"/>
+            </div>
+              <h3>Design Team</h3>
+              <p>Antoine Level - CEO & Business, Telecom & Electronic Engineer</p>
+              <p>Xavier De Le Rue - Professional Snowboarder & Action Sports Movie Maker</p>
+              <p>Matthieu Giraud - Movie Producer</p>
+              <p>Sylvain Montreuil - Business Design</p>
+              <p>Max Sarrazin - Graphic Design</p>
+              <p>Medhi Mugnier - Digital Project Management</p>
+            </div>
+          </div>
+        </div>
+      
+      <!-- Ambassadors -->
+
+      <div class="section" id="section_a4">
+        <h3>Our Ambassadors</h3>
+        <div class="ambassadors">
+          <div class="slider">
+        <div>
+            <img src="images/ambassadeur1.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> Ralph Backstrom </h4>
+            <p> Pro Big Mountain Snowboarder </p>
+        </div>
+         <div>
+            <img src="images/ambassadeur2.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> Kye Petersen </h4>
+            <p> Pro Skier </p>
+        </div>
+         <div>
+            <img src="images/ambassadeur3.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> Gabriel Odujobi </h4>
+            <p> 110m Hurdles Spinter </p>
+
+        </div>
+         <div>
+            <img src="images/ambassadeur4.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> Jamie Anderson </h4>
+            <p> Pro Snowboarder </p>
+        </div>
+         <div>
+            <img src="images/ambassadeur5.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> John Jackson </h4>
+            <p> Pro Snowboarder </p>
+        </div>
+         <div>
+            <img src="images/ambassadeur6.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> Dieter Humpscht </h4>
+            <p> Pro Waveskater and Videographer </p>
+        </div>
+        <div>
+            <img src="images/ambassadeur7.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> Sam Pilgrim </h4>
+            <p> Pro Mountain Biker </p>
+        </div>
+         <div>
+            <img src="images/ambassadeur8.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> Hannah Teter </h4>
+            <p> Pro Snowboarder </p>
+        </div>
+         <div>
+            <img src="images/ambassadeur9.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> Ted Ligety </h4>
+            <p> Alpine Skier </p>
+        </div>
+         <div>
+            <img src="images/ambassadeur10.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> Eric Willett </h4>
+            <p> Pro Snowboarder </p>
+        </div>
+         <div>
+            <img src="images/ambassadeur11.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> Xavier De Le Rue </h4>
+            <p> Pro Big Mountain Snowboarder </p>
+        </div>
+         <div>
+            <img src="images/ambassadeur12.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> Renan Ozturk </h4>
+            <p> Camp 4 Collective Director </p>
+        </div>
+        <div>
+            <img src="images/ambassadeur13.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> Mat Rebeaud </h4>
+            <p> Pro Freestyle Motocross </p>
+        </div>
+         <div>
+            <img src="images/ambassadeur14.png" alt="ambassadeur" title="Our Ambassadoors"/>
+            <h4> Martin Söderström </h4>
+            <p> Pro Mountain Biker </p>
+        </div>
+         <div>
+            <img src="images/ambassadeur15.png" alt="ambassadeur" title="Our Ambassadoors" />
+            <h4> Nate Holland </h4>
+            <p> Pro Snowboarder </p>
+        </div>
+    </div>
+        </div>
+      </div>
+
+      <!-- Wall Of Fame -->
+
+      <div class="section" id="section_a5">
+        <div class="wof">
+          <img src="images/heart.png" alt="heart" title="Wall Of Fame"/>
+          <h3>Wall Of Fame</h3>
+          <div class="wof_text">
+            <p>Jaren Fulwell</p>
+            <p>SUM</p>
+            <p>Lukáš Tučňák Bernas</p>
+            <p>Jonas Renner</p>
+            <p>Daniel MCILHAGGA</p>
+            <p>Eddie Codel</p>
+          </div>
+           <div class="wof_text">
+            <p>Mike Hoefflinger</p>
+            <p>Logan Turley</p>
+            <p>Eddy tsai</p>
+            <p>Greg Wilson</p>
+            <p>Brandon Marling</p>
+            <p>Juston777</p>
+          </div> 
+          <div class="wof_text">
+            <p>Joseph Pulizzi</p>
+            <p>Eugene Sukhodolin</p>
+            <p>Shaune Jan</p>
+            <p>Paul DuVilla</p>
+            <p>Daniel Segui</p>
+            <p>Joseph</p>
+          </div> 
+          <div class="wof_text">
+            <p>Patrick Coyle</p>
+            <p>Zach Loggins</p>
+            <p>Tanguy Verluise</p>
+            <p>Philippe Van Nedervelde</p>
+            <p>Alex Ilie</p>
+            <p>Korneel Wever</p>
+          </div> 
+          <div class="wof_text">
+            <p>Shawn Thomas Smith</p>
+            <p>Thomas Schijf</p>
+            <p>Gianni Antonica</p>
+            <p>Schwitter Franck</p>
+            <p>Dumitru Corobceanu</p>
+            <p>Jarno Puff</p>
+          </div> 
+          <div class="wof_text">
+            <p>Rutger Bartels</p>
+            <p>Frazer Waller</p>
+            <p>Klaus Zanders</p>
+            <p>Douglas Gorden Jr.</p>
+            <p>Tomek Wytrębowicz</p>
+            <p>Jean Poma</p>
+          </div>
+          <div class="wof_text">
+            <p>sebastian barquin</p>
+            <p>Jason Taylor</p>
+            <p>Martin Willers</p>
+            <p>Pavel Curda</p>
+            <p>Nurdeen Suzuki</p>
+            <p>Mark Philpott</p>
+          </div>
+          <div class="wof_text">
+            <p>Marty Herceg</p>
+            <p>StartUp Genesis</p>
+            <p>Petr Toman</p>
+            <p>Philip Yakymov</p>
+            <p>Junaid Ahmed</p>
+            <p>Christopher Williams</p>
+
+          </div>
+          <div class="wof_text">
+            <p>Willie Blount</p>
+            <p>Chad Gingrich</p>
+            <p>Theresa M Kalfas</p>
+            <p>Daniel Gnecco</p>
+            <p>Ahmed Bouholaigah</p>
+            <p>Kasper Skov Jensen</p>
+          </div>
+          <div class="wof_text">
+            <p>Peter Christensen</p>
+            <p>Jarrah</p>
+            <p>Antorix Abreu</p>
+            <p>Delporte Aymeric</p>
+            <p>Michel Cezon</p>
+            <p>Kevin Phillips</p>
+          </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+           <div id="section_p4">
+        <footer>
+          <div class="footer_top">
+            <div class="footer_more">
+              <h3>More Informations</h3>
+                <nav>
+                  <ul>
+                    <li><a href="product.html">Our products</a></li>
+                    <li><a href="#">Our videos</a></li>
+                    <li><a href="#">Our News</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="footer_newsletter">
+                  <a href="#" class="button postfix">Notify Me !</a>
+                  <input class="input_news" type="text" placeholder="HEXO+'s News">
+              </div>
+            </div>
+
+            <div class="footer_soc">
+              <div class="footer_soc_logo">
+                <h2>Hexo+</h2>
+              </div>
+              <div class="footer_soc_res">
+                <nav>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-pinterest-square fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+    
+            <div class="footer_other">
+              <div class="footer_link">
+                <nav>
+                  <ul>
+                    <li><a href="">Terms And Conditons</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Press</a></li>
+                    <li><a href="">Wall Of Fame</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="footer_copyright">
+                <p>© 2014. All rights reserved.</p>
+              </div>
+            </div>
+          </footer>
+      </div>
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

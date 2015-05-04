@@ -1,0 +1,299 @@
+<!doctype html>
+
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<!--[if IE 10]><html class="ie10" lang="en" > <![endif]-->
+
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HEXO +</title>
+
+    <link rel="stylesheet" type="text/css" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+
+    <script>
+    $(document).foundation();
+    </script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        scrollingSpeed: 700,
+        autoScrolling: false,
+        verticalCentered: true,
+        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
+        afterRender: function(){
+
+
+          //playing the video
+          $('video').get(0).play();
+        }
+      });
+    });
+  </script>
+  </head>
+  <body>
+
+    <!-- Header / Menu -->
+
+    <header class="fixed sticky hide-for-small">
+      <div class="blue_barre">
+      </div>
+        <div class="row grid_m">
+          <div class="large-12 columns grid">
+                <div class="large-3 columns left">
+                  <h1 class="logo_header"><a href="index.html">HEXO+</a></h1>
+                </div>
+
+                <div class="large-9 columns right">
+                  <nav class="header_nav">
+                    <ul class="inline-list right">
+                      <li><a href="" class="pre_order"><button>Pre-Order Now !</button></a></li>
+                      <li><a href="product.html">Products</a></li>
+                      <li><a href="#">Innovation</a></li>
+                      <li><a href="#">News</a></li>
+                      <li><a href="aboutus.html">About Us</a></li>
+                    </ul>
+                  </nav>
+                </div>
+          </div>
+        </div>
+    </header>
+<span class="test">
+    <header id="top" role="banner" class="fixed sticky show-for-small">
+      <div class="blue_barre">
+      </div>
+        <div class="block">
+            <h1 class="block-title">HEXO+</h1>
+            <a class="nav-btn" id="nav-open-btn" href="#nav">Navigation</a>
+        </div>
+    </header>
+
+    <!-- Header / Menu Mobile -->
+
+    <nav id="nav" role="navigation">
+        <div class="block">
+            <ul>
+                <li class="is-active">
+                    <a href="#">Pre-Order Now !</a>
+                </li><!--
+             --><li>
+                    <a href="index.html">Home</a>
+                </li><!--
+             --><li>
+                    <a href="product.html">Products</a>
+                </li><!--
+             --><li>
+                    <a href="#">Innovation</a>
+                </li><!--
+             --><li>
+                    <a href="#">News</a>
+                </li><!--
+             --><li>
+                    <a href="aboutus.html">About</a>
+                </li>
+            </ul>
+            <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
+        </div>
+    </nav>
+        </div>
+      </div>
+  </header>
+ </span> 
+
+<!-- Content -->
+
+ <div id="fullpage">
+
+      <!-- Drone schematics -->
+
+      <div class="section" id="section_p0">
+        <div class="feature_drone">
+          <img src="images/dronecarac.png" alt="drone caracteristic" title="Caracteristic of drone"/>
+          <a href="#"><button class="pre-order">pre order now</button></a>
+        </div>
+      </div>
+  
+      <!-- Drone presentation -->
+
+      <div class="section" id="section_p1">
+        <div class="presentation">
+          <div class="presentation_part1">
+            <div class="presentation_part1_desc">
+              <h3>A drone camera working for <span class="you">you</span></h3>
+              <p class="top">
+                We initially began thinking about HEXO+ because we needed a solution that would make aerial filming possible in the most remote places: on mountains, in the snow, and in all sorts of unpredictable situations that were quite a pain to deal with when trying to sync a drone pilot, a cameraman and a rider.
+              </p>
+              <p>
+                When we started toying with the idea, we realized that it had the potential to change the face of all kinds of aerial filming, making it dead simple. So we combined our expertise in action-sports movie-making, drone design and aeronautic software to create a drone capable of autonomously flying, filming and following, giving you access to amazing aerial shots with the bare minimum: a drone, a camera and an app on your smartphone.
+              </p>
+              <p>
+                HEXO+ is just that – an intelligent aerial follow camera: no pilot, no cameraman, no headache.
+              </p>
+            </div>
+            <div class="presentation_part1_img">
+              <img src="images/phoneright.png" alt="phone" title="phone with description"/>
+            </div>
+          </div>
+          <div class="presentation_part2">
+            <div class="presentation_part2_img">
+              <img src="images/phoneleft.png" alt="phone" title="phone with description" />
+            </div>
+            <div class="presentation_part2_legende1">
+              <p>
+                Simplicity to sharing. Hexo+ is about a smooth and simple experience. From setting up your shoot, to automatic takeoff and landing, to reviewing, editing and sharing footage online, every step has been thoughtfully designed to make sure filming is fun. 
+              </p>
+            </div>
+            <div class="presentation_part2_legende2">
+              <p>
+                Intuitive 3D framing or intuitive live view framing and emergency landing
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pre Order -->
+
+      <div class="section" id="section_p2">
+        <div class="buy_it">
+          <h3>Free worldwide shipping !</h3>
+            <span class="price">1.140 $</span>
+            <span class="quantity">
+              <span class="quantity_desc">Quantity :</span>
+              <input type="number" name="quantity" min="1" max="5" placeholder="1">
+              </span>
+        </div>
+        <a href="#"><button class="pre-order">pre order now</button></a>
+
+      </div>
+
+      <!-- Infos drones -->
+
+      <div class="section" id="section_p3">
+        <div class="infos">
+          <div class="infos1">
+            <div class="infos_block">
+              <h3>General</h3>
+                <p>
+                  Dimensions: 62 x 52 x 12 cm - 24 x 20 x 5 inches
+                  Total weight: 980 g - 2.2 lbs 
+                </p>
+            </div>
+            <div class="infos_block">
+              <h3>Drone</h3>
+                <p>
+                  Hexacopter design with 30° tilt propellers 
+                  Speed range: up to 70 kmh - 45mph
+                  Flight time: 15 min with 3S battery, gimbal and GoPro attached
+                </p>
+            </div>
+          </div>
+          <div class="infos2">
+            <div class="infos_block">
+              <h3>Flight Controller</h3>
+                <p>
+                  Filming distance range:  Technically, the drone can be as far from the GPS as 2 kilometers, but we advise you to research and respect your local regulations. 
+                  Auto take-off and auto landing
+                  Trajectory anticipation 
+                  Video target locking* 
+                  GPS + onboard sensor position tracking
+                  Processor with MAVLINK protocol
+                </p>
+            </div>
+          </div>
+          <div class="infos3">
+              <div class="infos_block">
+                <h3>Gimbal</h3>
+                  <p>
+                      High performance 2D brushless gimbal
+                      Easy attach/detach from drone body for transportation
+                      GoPro mount
+                  </p>
+              </div>
+              <div class="infos_block">
+                <h3>Camera</h3>
+                  <p>
+                    GoPro Hero3+ Black Edition or Hero3 White Edition available
+                  </p>
+              </div>
+              <div class="infos_block">
+                <h3>App</h3>
+                  <p>
+                    For iOS and Android 
+                  </p>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+
+     <div id="section_p4">
+        <footer>
+          <div class="footer_top">
+            <div class="footer_more">
+              <h3>More Informations</h3>
+                <nav>
+                  <ul>
+                    <li><a href="product.html">Our products</a></li>
+                    <li><a href="#">Our videos</a></li>
+                    <li><a href="#">Our News</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="footer_newsletter">
+                  <a href="#" class="button postfix">Notify Me !</a>
+                  <input class="input_news" type="text" placeholder="HEXO+'s News">
+              </div>
+            </div>
+
+            <div class="footer_soc">
+              <div class="footer_soc_logo">
+                <h2>Hexo+</h2>
+              </div>
+              <div class="footer_soc_res">
+                <nav>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-pinterest-square fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+    
+            <div class="footer_other">
+              <div class="footer_link">
+                <nav>
+                  <ul>
+                    <li><a href="">Terms And Conditons</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Press</a></li>
+                    <li><a href="">Wall Of Fame</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="footer_copyright">
+                <p>© 2014. All rights reserved.</p>
+              </div>
+            </div>
+          </footer>
+      </div>
+    </div>
+  </body>
+
